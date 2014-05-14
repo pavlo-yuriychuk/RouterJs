@@ -28,10 +28,9 @@ OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
     }
 })(window, function (History) {
 
-
     function Router(routes) {
       var _this = this;
-      this.routes = routes !== null ? routes : {};
+      this.routes = (routes !== null && routes !== undefined) ? routes : {};
       History.Adapter.bind(window, 'statechange', function() {
         return _this.checkRoutes(History.getState());
       });
