@@ -1,0 +1,33 @@
+{
+  "name": "RouterJs",
+  "version": "0.0.1",
+  "homepage": "http://haithembelhaj.github.io/RouterJs/",
+  "authors": [
+    "Haithem Bel Haj"
+  ],
+  "description": "Easy routing for your ajax Web applications",
+  "main": "Router.js",
+  "moduleType": [
+    "amd",
+    "global"
+  ],
+  "keywords": [
+    "router",
+    "history"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "history": "~1.8.0",
+    "requirejs": "~2.1.11",
+    "chai": "~1.9.1",
+    "sinon": "~1.9.1",
+    "mocha": "~1.18.2"
+  }
+}

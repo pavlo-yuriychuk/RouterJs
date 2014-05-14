@@ -1,0 +1,32 @@
+{
+    "nonew": true,
+    "funcscope": true,
+    "latedef": true,
+    "unused": true,
+    "noarg": true,
+    "indent": 2,
+    "forin": true,
+    "noempty": true,
+    "quotmark": "single",
+    "smarttabs": true,
+    "node": true,
+    "asi": true,
+    "supernew": true,
+    "strict": true,
+    "undef": true,
+    "sub": true,
+    "laxcomma": true,
+    "bitwise": true,
+    "onevar": true,
+    "browser": true,
+    "boss": true,
+    "maxlen": 120,
+    "multistr": true,
+    "browser": true,
+    "devel": true,
+    "newcap": false,
+    "globals": {
+      "require": true,
+      "define": true
+    }
+}
